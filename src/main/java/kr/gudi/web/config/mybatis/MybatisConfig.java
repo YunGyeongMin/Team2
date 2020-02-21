@@ -18,7 +18,7 @@ public class MybatisConfig {
 	public DataSource dataSource() throws Exception {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("org.mariadb.jdbc.Driver");
-		dataSource.setUrl("jdbc:mariadb://192.168.3.232:3306/project");
+		dataSource.setUrl("jdbc:mariadb://localhost:3306/project");
 		dataSource.setUsername("team2");
 		dataSource.setPassword("team1234");
 		return dataSource;
