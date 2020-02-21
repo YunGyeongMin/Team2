@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+body {margin : 0;}
+
+.margin {margin : 0px;}
+
+#div1 {width : 100%;
+	   height : 90px;
+	   min-width : 1200px;
+	   background-color : #f1e3c4;
+	   }
+	   
+#div2 {width : 1200px;
+	   height : 1101px;
+	   min-width : 1200px;
+	   margin-left : auto;
+	   margin-right : auto;
+	   padding-top : 65px;
+	   margin-bottom : 100px;
+	   }
+	   
+#div2-1 {height : 1101px;
+		 }
+		 
+#div2-L {width : 264px;
+		 height : 395px;
+		 margin : 0;
+		 padding : 0;
+		 float : left;
+		 }
+		 
+.contents {width : 218px;
+		   height : 319px;
+		   padding : 23px;
+		   margin-bottom : 30px;
+		   border : 1px;
+		   background-color : #f1e3c4;
+		   }
+		   
+.intro {height : 40px;
+		padding-top : 9px;
+	   margin-bottom : 33px;
+	   border-bottom : thick;
+	   border-bottom-width: 5px;
+	   border-bottom-style: solid;
+	   font-size : 22px;
+	   font-weight : bold;
+	   color : #432c10;
+	   }
+
+.menu {height : 209px;
+	   color : #432c10;
+	   font-size : 17px;
+	   }
+   
+
+.m {color : #432c10;
+	margin-bottom : 26px;
+	font-size : 15px;
+	letter-spacing: -1px;
+	font-weight : bold;
+	padding-left : 8px;
+	}
+	
+.m-selected {color : #432c10;
+	margin-bottom : 26px;
+	font-size : 15px;
+	letter-spacing: -1px;
+	font-weight : bold;
+	padding-left : 8px;
+	background-color : #d3c09a;
+	}
+
+
+#div2-R {width : 866px;
+		 height : 1101px;
+		 background-color : white;
+		 float : right;
+		 }
+		 
+#div2-R-T {width : calc(100% - 4px);
+		   height : 40px;
+		   padding : 2px;
+		   float : right;
+		   border-bottom : thick;
+	   	   border-bottom-width: 5px;
+	  	   border-bottom-style: solid;
+	  	   font-size : 26px;
+	   	   font-weight : normal;
+	   	   color : #432c10;
+	   	   display : inline-block;
+		   }
+		   
+#div2-R-T-R {float : right;
+			 font-size : 12px;
+			 margin-top : 3px;
+			 }
+			 
+			 
+.color {color : #865009;}
+
+#div2-R-B {width : 100%;
+		   height : 1052px;
+		   display : inline-block;
+		   }
+		   
+#div2-R-B-2 {width : 100%;
+			 height : 425px;
+			 margin-top : 12px;
+			 background-image : url("imgF/Jeju2.jpg");
+			 display : inline-block;
+			 }
+			 
+#div2-R-B-3 {width : 100%;
+			 height : 407px;
+			 margin-top : 13px;
+			 background-image : url("imgF/Jeju3.jpg");
+			 display : inline-block;
+			 }
+			 
+#Jeju-link {width : 100%;
+			 height : 137px;
+			 background-image : url("imgF/Jeju4.jpg");
+			 display : inline-block;
+			 border-width : 1px 0;
+			 border-style : solid;
+			 border-color: #e3e3e3;
+			 }
+	
+
+
+#div3 {width : 100%;
+	   height : 170px;
+	   min-width : 1200px;
+	   background-color : #f1e3c4;
+	   }
+	   
+#div4 {width : 1200px;
+	   height : 183px;
+	   margin-left : auto;
+	   margin-right : auto;
+	   min-width : 1200px;
+	   position : relative;
+	   background-color : green;
+	   }

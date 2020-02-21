@@ -1,0 +1,18 @@
+@charset "UTF-8";
+input.text, input.email, input.tel, input.url, input.time, 
+input.number, input.color, input.password {
+    padding: 5px 4px 5px 4px;
+    outline: 0;
+	}
+
+input.text, input.email, input.tel, input.url, input.time, 
+input.number, input.color, input.password {
+	font-size: 12px;
+    font-weight: normal;
+    color: #727272;
+    border-top: solid 1px #dcdcdc;
+    border-left: solid 1px #dcdcdc;
+    border-bottom: solid 1px #dcdcdc;
+    border-right: solid 1px #dcdcdc;
+    border-radius: 0px;
+	}

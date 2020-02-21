@@ -1,0 +1,54 @@
+@charset "UTF-8";
+body { margin: 0;}
+
+
+
+.div1 {  background-color: #f1e3c4; }
+
+.div2 { height:966px; background-color: #ffffff; width: 1200px; 
+        margin-left: calc((100% - 1200px) / 2); padding-top : 65px; margin-bottom: 100px;  }
+        
+.div2-1 { width: 1200px; height: 966px;  background-color: #ffffff; }        
+.div2-2 { min-width :unset ; width: 216px; height: 176px; background-color: #f1e3c4;
+		  margin: 0 0 30px 0; padding: 23px;  border: #e9dab8 solid 1px; float: left;
+         }
+.div2-3 { width: 216px; height: 40px; color: #432c10; border-bottom: thick; border-bottom-width : 5px; border-bottom-style: solid;  margin: 0 0 29px 0; padding-top: 9px; }                 
+.div2-4 { min-width :unset; width: 866px; height: 966px; background-color: #ffffff; float: right;}
+.div2-5 { min-width :unset; width: 216px; height: 68px;}
+
+
+.p2 {     margin-top: 20px;
+    background-color: #d3c09a;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 14px;
+     font-size: 15px; font-weight: bold; color: #432c10;
+    } 
+.p2:hover { cursor: pointer;}
+.p2-1 {     margin-top: 20px;
+    font-size: 14px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+     font-size: 15px; font-weight: bold; color: #432c10;}
+
+.div2-4-1 {font-size: 26px; margin: 0; padding-bottom: 10px; border-bottom: thick; border-bottom-width : 5px; border-bottom-style: solid;  color:#432c10; float: }
+.p2-4-1 { min-width :unset; height: 29px; font-size: 12px; float: right; padding: 20px 0 0 0;}
+
+.div10 { background-image: url("img/제목 없음.png"); width: 866px; height: 780px; background-repeat: no-repeat; }
+
+ 
+    
+ 
+    
+
+
+.div3 { height: 170px;  background-color: #f1e3c4;}
+
+.div4 { height: 183px;  background-color: #ffffff;}
+

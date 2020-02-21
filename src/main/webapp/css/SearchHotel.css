@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+}
+
+div.tople1 { position:relative;}
+
+.div_tag11 { 
+	width: 984px; 
+	height: 500px; 
+	background-color: #ffffff; 
+    position:fixed;
+    top: 140px;
+    left: 450px;
+	display: none;
+	z-index: 21;
+   }
+
+.div1_dididi { width: 984px; height: 60px; background-color: #f7f7f7; }
+.div1-1_dididi{  width: 17px; height: 17px; float: right; background-image:url("img/Close.png"); background-repeat: no-repeat; margin-top: 20px;
+    margin-right: 20px; }
+.div1-1_dididi:hover { cursor: pointer;}    
+
+.btn_dididi:hover { cursor: pointer; }
+
+.p1_dididi {margin: 0; padding-top: 20px; padding-left: 35px;  margin: 0 100px 0 0; float: left;}
+
+.div2_dididi { width: 984px; height: 90%; background-color: #ffffff; }
+.div2-1_dididi { width: 904px; height: 354px; background-color: #ffffff; padding: 5px 40px 0;}
+.div2-2_dididi { width: 147px; height: 90px; background-color: #ffffff;  float: left;}
+.p2_dididi {margin: 0; padding-top: 35px; }
+.div2-3_dididi { width: 754px; height: 88px; background-color: #ffffff; float: left; margin:0; padding: 25px 0 19px;}
+.div2-3-1_dididi { width: 140px; height: 31px; margin: 0; float: left;}
+.div2-3-2_dididi { width: 61px; height: 13px; background-image: url("img/서울강북.gif"); background-repeat: no-repeat;  margin-top: 13px; float: left; }
+.div2-3-8_dididi { width: 64px; height: 13px; background-image: url("img/서울강남.gif"); background-repeat: no-repeat;  margin-top: 13px; float: left; }
+.div2-3-9_dididi { width: 61px; height: 13px; background-image: url("img/전국.gif"); background-repeat: no-repeat;  margin-top: 13px; float: left; }
+
+
+
+.div2-3-3_dididi { width: 198px; height: 27px; margin: 1px 2px;; float: left; padding-top: 11px;  border-color:#d9d9d9; border-style: solid; border-width: 1px;}
+.h5_dididi {color: #999999; text-align: center; margin: 0; text-decoration:none; display: block;
+    font-size: 0.9em; font-weight: bold;}
+.div2-3-3_dididi:hover { cursor: pointer; color: #856f56; border-color:#856f56; border-style: solid; border-width: 1px;}
+
+
+.div2-3-4_dididi { width: 198px; height: 27px; margin: 3px 2px 2px 142px; float: left; padding-top: 11px;  border-color:#d9d9d9; border-style: solid; border-width: 1px; }
+.h5-1_dididi {color: #999999; text-align: center; margin: 0; font-size: 0.9em; font-weight: bold; display: block; text-decoration:none;}
+.div2-3-4_dididi:hover { cursor: pointer; color: #856f56; border-color:#856f56; border-style: solid; border-width: 1px;}
+.div2-3-5_dididi { width: 198px; height: 27px; margin: 3px 2px 2px 2px; float: left; padding-top: 11px;  border-color:#d9d9d9; border-style: solid; border-width: 1px; }
+.div2-3-5_dididi:hover {cursor: pointer; color: #856f56; border-color:#856f56; border-style: solid; border-width: 1px; }
+
+.div2-4_dididi { width: 754px; height: 79px; background-color: #ffffff; float: left; margin-left:  147px; border-top-width: 1px; border-top-style: dotted; border-color:#a2a2a2; padding-top: 30px;}
+.div2-5_dididi { width: 754px; height: 103px; background-color: #ffffff; float: left; margin-left:  147px; border-top-width: 1px; border-top-style: dotted;border-color:#a2a2a2; padding-top: 30px;}
+
+.backgraund {
+	display: none;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    zoom: 1;
+    position: fixed;
+    _position: absolute;
+    left: 0px;
+    z-index: -1;
+    top: 0px;
+    opacity: 0.5;
+	
+	
+}

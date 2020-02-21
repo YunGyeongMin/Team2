@@ -1,0 +1,301 @@
+@charset "UTF-8";
+
+
+.contan{
+	position: relative;
+	padding: 65px 0 0 0;
+}
+
+.contan .contaner{
+	width: 1200px;
+    zoom: 1;
+    margin: 0 auto 100px auto;
+}
+
+.mainbody .contan .contentts{
+	float: none !important;
+    width: auto !important;
+    margin: auto !important;
+}
+
+.contents {
+    padding: 0;
+    background: #ffffff;
+    min-height: 440px;
+}
+
+.new_rsvBox .rsvOptionWrap {
+    padding-bottom: 110px;
+}
+
+.new_rsvBox .rsvOptionWrap > .rsvInfoType:first-child {
+    border-top: 2px solid #856f56;
+}
+
+.new_rsvBox .rsvInfoType {
+    border: 1px solid #dcdcdc;
+}
+
+.new_rsvBox .rsvInfoType {
+    margin-top: 30px;
+}
+
+.new_rsvBox .rsvInfoType .infoTit {
+    padding: 0 30px;
+    color: #333333;
+    font-size: 16px;
+    line-height: 50px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.new_rsvBox .fRight {
+    float: right !important;
+}
+
+.fRight, .rsvInfoType .infoTit .fRight {
+    font-size: 12px;
+}
+
+em {
+    font-style: normal;
+}
+.new_rsvBox .necessary {
+    position: relative;
+}
+
+.new_rsvBox .rsvInfoType > .formWrap {
+    padding: 30px;
+}
+
+.new_rsvBox .rsvInfoType .colWrap {
+    display: table;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.new_rsvBox .rsvInfoType .colWrap .col2 {
+    display: table-cell;
+    width: 50%;
+}
+
+.new_rsvBox .rsvInfoType .colWrap .col2.colL {
+    padding-right: 30px;
+}
+
+.new_rsvBox .mt0 {
+    margin-top: 0 !important;
+}
+
+.new_rsvBox .formWrap .fmTit {
+    display: block;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.new_rsvBox .customerInfo {
+    width: 100%;
+    margin: -3px 0;
+}
+
+.new_rsvBox .customerInfo th {
+    padding: 17px 0;
+    font-weight: normal;
+    text-align: left;
+    vertical-align: top;
+}
+
+.new_rsvBox .customerInfo td {
+    padding: 3px 0;
+    text-align: right;
+}
+
+.optionList {
+    color: #444444;
+}
+
+.new_rsvBox .customerInfo td select, 
+.customerInfo td .selector span, 
+.new_rsvBox .customerInfo td input {
+    text-align: left;
+}
+
+.new_rsvBox textarea[readonly], 
+.new_rsvBox input[type="text"][readonly] {
+    background: #f1f1f1;
+    color: #999999;
+}
+
+.new_rsvBox input.text.textResv {
+    padding: 13px 10px 11px;
+}
+
+.new_rsvBox .optionList [class*="selectWrap"] + [class*="selectWrap"], 
+.new_rsvBox .optionList [class*="selectWrap"] + input, 
+.new_rsvBox .optionList input + input {
+    margin-left: 6px;
+}
+
+.new_rsvBox input.text.textResv[disabled] {
+    background: #f7f7f7;
+    color: #999999;
+}
+
+.new_rsvBox .fmTitWrap {
+    position: relative;
+    margin-top: 50px;
+}
+
+.new_rsvBox .formWrap .fmTit {
+    display: block;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.new_rsvBox .fmTitWrap .fmTit {
+    display: inline-block;
+    margin-top: 0;
+}
+
+.new_rsvBox .holdPointBox {
+    display: table;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background: #f7f7f7;
+    border: 1px solid #dcdcdc;
+}
+
+.new_rsvBox .holdPointBox strong {
+    width: 160px;
+    color: #555;
+}
+
+.new_rsvBox .holdPointBox > * {
+    display: table-cell;
+    line-height: 48px;
+}
+
+.new_rsvBox .holdPointBox span {
+    color: #856f56;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.new_rsvBox .fmTitWrap {
+    position: relative;
+    margin-top: 50px;
+}
+
+.new_rsvBox .rsvInfoType .colWrap .col2.colR {
+    padding-left: 30px;
+    background: url("Other/3reservation/linevertical.png") 0 0 repeat-y;
+}
+
+.new_rsvBox .customerInfo {
+    width: 100%;
+    margin: -3px 0;
+}
+.new_rsvBox .customerInfo td {
+    padding: 3px 0;
+    text-align: right;
+}
+
+.new_rsvBox .optionList {
+    margin: 0 !important;
+}
+
+.new_rsvBox .optionList * {
+    vertical-align: middle;
+}
+
+.new_rsvBox .optionList [class*="selectWrap"] {
+    display: inline-block;
+}
+
+.new_rsvBox .customerInfo .optionList .selectWrap3 .selector, 
+.new_rsvBox .customerInfo .optionList .selectWrap4 .selector, 
+.new_rsvBox .customerInfo .optionList .selectWrap7 .selector {
+    width: 408px !important;
+}
+
+.new_rsvBox .optionList [class*="selectWrap"] .new_rsvBox .selector select {
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+.new_rsvBox .optionList div.selector select {
+    height: 40px;
+    width: 412px;
+}
+
+div.selector select {
+    font-size: 13px;
+}
+
+.new_rsvBox .optionList .selectWrap4 div.selector {
+   	padding: 0 4px 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.selector, .radio, .checker, .uploader, .button, .selector *, .radio *, .checker *, .uploader *, .button * {
+    padding: 0;
+}
+
+.new_rsvBox input.text.textResv {
+    padding: 13px 10px 11px;
+}
+
+.new_rsvBox .customerInfo .optionList .selectWrap5 .selector, 
+.new_rsvBox .customerInfo .optionList .selectWrap6 .selector {
+    width: 199px !important;
+}
+
+.new_rsvBox .optionList [class*="selectWrap"] + [class*="selectWrap"], 
+.new_rsvBox .optionList [class*="selectWrap"] + input, 
+.new_rsvBox .optionList input + input {
+    margin-left: 6px;
+}
+
+.new_rsvBox .optionList .selectWrap5 div.selector,
+.new_rsvBox .optionList .selectWrap6 div.selector {
+   	padding: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.new_rsvBox .optionList .selectWrap5 div.selector select,
+.new_rsvBox .optionList .selectWrap6 div.selector select {
+    height: 40px;
+    width: 201px;
+}
+
+.new_rsvBox .notiList1 {
+    margin-top: 20px;
+}
+
+.new_rsvBox .notiList1 {
+    color: #666666;
+}
+
+.new_rsvBox .notiList1 > li, .new_rsvBox p.notiList1 {
+    text-indent: -9px;
+    margin-left: 17px;
+    line-height: 22px;
+}
+
+.new_rsvBox .notiList1 > li:before, 
+.new_rsvBox p.notiList1:before {
+    display: inline-block;
+    content: '※';
+    font-size: 12px;
+    margin-right: 3px;
+}
+
+.new_rsvBox .notiList1 > li + li {
+    margin-top: 3px;
+}

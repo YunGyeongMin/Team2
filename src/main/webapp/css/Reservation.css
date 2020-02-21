@@ -1,0 +1,495 @@
+@charset "UTF-8";
+body, div, td, th, p, textarea {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #101010;
+}
+body{
+	min-width: 1200px;
+}
+
+body, html {
+    font-size: 12px;
+  
+ 
+}
+ul, ol, li, dl, dt, dd {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+.contain{
+	position: relative;
+	padding: 65px 0 0 0;
+	width: 1200px;
+    margin: auto;
+    zoom: 1;
+    margin: 0 auto 100px auto;
+	}
+
+
+.new_rsvBox .rsvStepWrap .rsvStepList{
+    position: relative;
+    height: 81px;
+    width:100%;
+    padding-bottom:40px;
+    border-bottom: solid  2px;
+    color :#856f56;
+	}
+	
+ .rsvStepWrap .rsvStepList{ margin-bottom: 35px;}
+}
+
+.new_rsvBox .rsvStepWrap .rsvStepList li {
+    position: absolute;
+    float: none;
+    width: 24px;
+    height: 24px;
+    z-index: 0;
+}
+
+
+.joinBody .contain .contents {
+    float: none !important;
+    width: auto !important;
+    margin: auto !important;
+}
+.step1{
+	position: relative;
+    width: 100%;
+    height: 82px;
+    text-align: center;
+    padding-bottom: 20px; 
+
+}
+.Serch_main{
+	width:100%;
+	height:90px;
+	box-sizing:border-box;
+	border-bottom: solid 2px;
+    color :#856f56;
+}
+
+.serchbar{
+	position: relative;
+    width: 90%;
+    height: 82px;
+    text-align: center;
+    padding-bottom: 20px; 
+    float: left;
+}
+.serch_top{
+	position: relative;
+	padding-top : 6px;
+    width: 100%;
+    height: 31px;
+    text-align: center;
+}
+.serch_bottom{
+	position: relative;
+    width: 100%;
+    height: 41px;
+    text-align: center;
+    padding-bottom: 6px; 
+}
+.serch_botton{ 
+	position: relative;
+    width: 10%;
+    height: 82px;
+    text-align: center;
+    padding-bottom: 20px; 
+    float: left;
+    margin-right: 0px !important;
+    }
+
+.sc{ width:240px; float: left;}
+.sc2{ width:60px; height: 17px; float: left; color: white;}
+.ch_in{ width:200px;float: left;}
+.day{ width:60px;float: left;}
+.ch_out{ width:200px;float: left;}
+.room{ width:60px;float: left;}
+.ad{ width:60px;float: left;}
+.ch{ width:60px;float: left;}
+.i_ch{ width:60px;float: left;}
+
+.non_serch{
+	width:100%;
+	height: 500px;
+	position: relative;
+}
+.new_rsvBox{
+	width:100%;
+}
+
+#non_serch{
+	text-align: center;
+	height:100%;
+	margin:auto;
+	width:calc(100% - 200px);
+	position: absolute;
+	top:200px;
+	left:0;
+	right: 0;
+	z-index: -1;
+}
+.im {
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+        padding-left: 60px!important;
+    display: block;
+    border: none;
+
+    width: calc(100% - 60px);
+}
+
+a:hobor{
+    cursor: pointer;
+}
+
+a{	text-decoration: none;
+	margin:0;
+	padding: 0;
+}
+dd {
+    display: block;
+    margin-inline-start: 40px;
+}
+
+.hotel{
+	width: 100%;
+	position:absolute;
+
+
+	background:white;
+	display: block;
+
+    z-index: 1;
+}
+
+.hotelBox_N {
+    display: block; 
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right:0;
+    width: 1200px;
+    min-height: 525px;
+    z-index: 1002;
+    background: #fff;
+    text-align: left;
+}
+ .htData dt {
+    margin: 30px 0 6px 6px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+.hotelBox_N .hHead {
+    height: 37px;
+    padding: 23px 0 0 40px;
+    background: #f7f7f7;
+}
+.hotelBox_N .hHead .htTab li {
+    float: left;
+    position: relative;
+}
+.hotelBox_N .hHead .htTab li + li {
+    margin-left: 21px;
+    padding-left: 20px;
+}
+.hotelBox_N .hHead .htTab li {
+    float: left;
+    position: relative;
+}
+.hotelBox_N .hCon {
+    padding: 5px 40px 0;
+}
+.htSearch .btnClear {
+    position: absolute;
+    right: 325px;
+    top: 93px;
+}
+.hotelBox_N .hHead .htTab li + li:before {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 15px;
+    background: #eaeaea;
+}
+.hotelBox_N .hHead .htTab li a {
+    display: inline-block;
+    padding-bottom: 17px;
+}
+.hotelBox_N .hCon dl dd {
+    padding: 25px 0 19px;
+    box-sizing: border-box;
+}
+
+.htData dl:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.hCon dd .tit {
+    float: left;
+    width: 140px;
+    padding-top: 15px;
+}
+    
+.htData dd ul {
+    float: left;
+    width: 612px;
+}
+.htData dt {
+    margin: 30px 0 6px 6px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+ }
+.htData dd a {
+    display: inline-block;
+    float: left;
+    width: 164px;
+    margin: 6px 0 0 6px;
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    font-size: 12px;
+    color: #999;
+    line-height: 38px;
+    text-align: center;
+    font-weight: bold;
+}
+.ckHotelInfo .slideBox .flexslider ul li img {
+    width: 236px;
+    height: 132px;
+}
+.htSearch .ckHotelInfo {
+    position: absolute;
+    top: 94px;
+    right: 1px;
+    width: 236px;
+    height: 335px;
+    padding: 0 30px;
+    background: url(../../images/ko/mem/new_2019/bg_dot_line_vertical.png) 0 0 repeat-y;
+}
+
+.htData dd a.on {
+    border: 2px solid #856f56;
+    color: #856f56;
+    line-height: 36px;
+    font-weight: bold;
+}
+.htData dt {
+    margin: 30px 0 6px 6px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+.korea{
+	width: 100%; 
+	height: 100%; 
+	float: left; 
+}
+.ul:before{
+   content: '';
+    display: block;
+    clear: both;
+}
+.btnList{
+	clear: both;
+	width:100%;
+	position:absolute;
+	margin-left:55%;
+	left: 0;
+    right: 0;
+  
+    bottom: 20px;
+
+}
+.people{
+    width: 1200px;
+    border: 1px solid #dcdcdc;
+    border-top: none;
+    background: #fff;
+    box-sizing: border-box;
+/* 	display: none; */
+	z-index: 2;
+}
+
+
+.r_number {
+    padding: 0 30px 30px;
+ }
+    
+.r_number .con {
+    position: relative;
+    height: 100px;
+    background: url(img/bg_dot_line.png) 0 100% repeat-x;
+    box-sizing: border-box;
+}
+.r_number .con dl {
+    display: table;
+    height: 68px;
+}
+.r_number .con dl dt {
+    width: 134px;
+    padding: 23px 0;
+    color: #999;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.new_rsvBox .r_number .con dl > * {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.new_rsvBox .r_number .con dl dd ul li {
+    float: left;
+    padding-left: 71px;
+    width: 191px;
+}
+.new_rsvBox .r_number .con dl dd .tit {
+    width: 87px;
+    font-size: 14px;
+    line-height: 28px;
+}
+.new_rsvBox .r_number .number .minus {
+    float: left;
+    background-position: 0 0;
+}
+.new_rsvBox .r_number .number .num {
+    float: left;
+    width: 73px;
+    height: 28px;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+}
+.new_rsvBox .r_number .number .plus.disabled {
+    background-position: -28px -28px;
+}
+
+.new_rsvBox .r_number .number {
+    width: 129px;
+}
+.new_rsvBox .r_number .number .minus, .new_rsvBox .r_number .number .minus {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background: url(img/bg_numControl.png) no-repeat 0 0;
+    text-indent: -99999px;
+}
+.new_rsvBox .r_number .number .minus, .new_rsvBox .r_number .number .plus {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background: url(img/bg_numControl.png) no-repeat 0 0;
+    text-indent: -99999px;
+}
+.new_rsvBox .r_number .number .plus {
+    background-position: -28px -28px;
+}
+
+.r_number ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.new_rsvBox .notiList1 {
+    color: #666;
+}
+.new_rsvBox .r_number .notiList1 {
+    margin: 20px 0 0 0;
+}
+.new_rsvBox .notiList1 > li, .new_rsvBox p.notiList1 {
+    text-indent: -9px;
+    margin-left: 17px;
+    line-height: 22px;
+}
+
+
+.new_rsvBox .notiList1 > li + li {
+    margin-top: 3px;
+}
+.new_rsvBox .ly_reserve .btnList {
+    padding: 6px 0 27px;
+    text-align: center;
+}
+
+}
+.new_rsvBox .btnSubmit {
+    display: inline-block;
+    width: 150px;
+    height: 44px;
+}
+.new_rsvBox .r_number .rooms .btnRooms {
+    display: none;
+    box-sizing: border-box;
+    padding-left: 20px;
+    background: url(img/btn_room_adddel.png) 0 0 no-repeat;
+    color: #857051;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.btnList:after {
+    clear: both;
+    content: "";
+    display: block;
+    font-size: 0;
+    height: 0px;
+    line-height: 0;
+    visibility: hidden;
+}
+.new_rsvBox .ly_reserve:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

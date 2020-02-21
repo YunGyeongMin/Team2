@@ -1,0 +1,222 @@
+@charset "UTF-8";
+body, div, td, th, h1,h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #101010;
+}
+div {
+    display: block;
+}
+/* body, html { */
+/*     font-size: 12px; */
+/*     font-family: Dotum,'돋움',sans-serif,Arial, Helvetica; */
+/* } */
+ul, ol, li, dl, dt, dd {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+	margin: auto;
+	width: 1200px; 
+	height: 900px; 
+	background-color: #f8f8f8;
+}
+
+
+	
+
+#div2-R-T {width : calc(100% - 10px);
+		   height : 40px;
+		   padding-left : 10px;
+		   padding-top : 10px;
+		   float : right;
+		   border-bottom : thick;
+	   	   border-bottom-width: 5px;
+	  	   border-bottom-style: solid;
+	  	   font-size : 20px;
+	   	   font-weight : normal;
+	   	   color : #432c10;
+	   	   display : inline-block;
+	   	   background: #efefef;	
+		   }
+.menu_top {color : #432c10;
+	margin-bottom : 26px;
+	font-size : 15px;
+	letter-spacing: -1px;
+	font-weight : bold;
+	padding : 0 20px;
+	folat:left;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	}		   
+
+.middle{
+	width: calc(100% - 20px);	
+	height: calc(34% - 20px);	
+	padding: 10px; 
+}
+.middle .div_mid{
+	width: calc(33% - 20px); 
+	height: calc(100% - 30px);
+	margin:10px;
+	background-color: white;
+	float :left; 
+	padding-top: 10px;
+}
+.middle .div_mid p{
+	padding-top:5px;
+	padding-left: 15px;
+}
+
+.h2 {color : black;}
+
+
+.bottom{
+	width: calc(100% - 20px);	
+	height: calc(60% - 20px);		
+	clear: both;	
+padding-left: 10px;
+}
+
+.div_bot{
+	width: calc(100% - 20px);	
+	height: calc(100% );
+	margin-left:10px;
+	margin-right:10px;
+
+	background-color: white;
+	font-weight: bold;
+}
+
+.bot_menuA{
+	text-align: center;
+	width: 200px;
+	height: 17px;
+	font-size: 18px;
+	float: left;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-top: 3px;	
+}
+
+
+
+
+
+.bot_menu2{
+	text-align: center;
+	width: 80px;
+	height: 17px;
+	font-size: 17px;
+	float: left;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-top: 3px;
+	
+}
+.bot_menu3{
+	text-align: center;
+	width: 310px;
+	height: 15px;
+	font-size: 15px;
+	float: right;
+	text-decoration: none;
+}
+.bot_date_menu{
+	width:150px;
+	float: left;
+	color: green;
+}
+
+.ui-datepicker-calendar {
+    display: none;
+    }​
+    
+    
+.a::after {display:block; content: ""; clear: both;}
+
+
+
+
+#id{
+	position:absolute;
+	top:10px;
+	right:20px;
+}
+h1{
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.bot_top{
+	width: 100%; 
+	height: 5%;
+	padding: 10px 0; 
+	background-color:#f7efd7;
+}
+
+#yearchoice {
+		width : 170px !important;
+		height: 20px !important;
+		float : right;
+		margin-right : 12px;
+}
+
+#graphAbtn {
+		width : 50px !important;
+		height: 20px !important;
+}
+
+#graphBbtn {
+		width : 50px !important;
+		height: 20px !important;
+}
+
+#graphCbtn {
+		width : 50px !important;
+		height: 20px !important;
+}
+
+
+
+.bot_graphview{
+	width: calc(100% - 30px);
+	height: calc(95% - 30px);
+	padding: 15px;
+	float: left;
+	
+}
+
+#chart_div {
+  width: 100%;
+  height: 100%;
+  
+}
+
+#graphA {
+  width: 100% !important;
+  height: 100% !important;
+  
+}
+#graphB {
+  width: 100% !important;
+  height: 100% !important;
+  
+}
+#graphC {
+  width: 100% !important;
+  height: 100% !important;
+  
+}
+
+
+
+
+
+
+
+
+

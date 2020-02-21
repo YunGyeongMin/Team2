@@ -1,0 +1,272 @@
+@charset "UTF-8";
+.loginpage{
+	padding: 65px 0 0 0;
+	}
+
+.loginwelcome{
+    width: 1200px;
+    zoom: 1;
+    margin: 0 auto 100px auto;
+	}
+
+.location {
+    float: right;
+    height: 20px;
+    padding: 9px 0 0 0;
+    margin: 0 0 -30px 0;
+    overflow: hidden;
+    z-index: 9;
+    position: relative;
+	}
+	
+.rgt {
+    right: 172px;
+	}
+
+.location .lote {
+    display: block;
+    font-size: 11px;
+    background: url("Other/3reservation/locaton.gif") no-repeat 0 1px;
+    line-height: 12px;
+    padding: 0 0 0 17px;
+	}
+
+.loginbox .logintit {
+    border-bottom: #432c10 5px;
+    height: 47px;
+    width: 866px;
+    margin: 0 auto;
+    background: url("Other/3reservation/loginTit.gif") no-repeat;
+	}
+
+.loginbox.line .logintit {
+    border-bottom: #432c10 solid 5px;
+    height: 47px;
+    width: 866px;
+    margin: 0 auto;
+	}
+
+.loginbox .logintop {
+    background: url("Other/2button/loginTop.gif") no-repeat;
+    width: 600px;
+    height: 144px;
+    margin: auto;
+	}
+
+.loginform{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+	}
+
+.loginbox .loginform .logbtn {
+	font-size: 12px;
+    font-weight: bold;
+    color: #444444;
+    padding-bottom: 10px;
+    position: relative;
+    top: 70px;
+    left: 40px;
+    width: 482px;
+    margin: 0 auto;
+	}
+.radio, .check {
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+	}
+	
+.radio, .check, .radio *, .check * {
+    margin: 0;
+    padding: 0;
+	}
+
+.divradio {
+    margin: 0 0 2px 5px;
+	}
+
+.radiowidth{
+    width: 18px;
+    height: 18px;
+	}
+
+.idinput, .pwinput {
+    border: 1px solid #ccc;
+    padding: 5px 4px 4px;
+    margin: 1px 0;
+    vertical-align: middle;
+    width: 280px;
+    }
+
+.loginbox.loginform .infom {
+    display: none;
+    overflow: hidden;
+    zoom: 1;
+	}
+
+.loginbox .loginform .infomon {
+    display: block;
+	}
+
+.loginbox .box {
+    background: #f1ebd6;
+    border-top: #a1886f solid 3px;
+    padding: 70px 0 60px 0;
+    width: 600px;
+    margin: auto;
+	}
+
+.loginbox .box .formbox {
+    width: 404px;
+    margin: auto;
+    position: relative;
+	}
+
+.field{
+    padding: 0;
+	}
+
+.loginbox .formbox .field .inputform {
+    position: relative;
+    width: 404px;
+    height: 60px;
+    margin: 0 0 7px 0;
+	}
+
+.loginbox .formbox .field .inputform .inputid {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+	}
+
+.loginbox .inputid .id {
+    background-position: 2px 3px;
+    margin: 0 0 7px 0;
+	}
+
+.loginbox .formbox .field .inputform .inputpw {
+    position: absolute;
+    left: 0px;
+    top: 32px;
+	}
+
+.loginbox .inputid input::placeholder, .loginbox .inputpw input::placeholder {
+	color:#000000;
+	}
+
+.loginbox .inputpw .pwinput {
+    background-position: 2px -29px;
+	}
+	
+.divcheck {
+    margin-right: 0px;
+    position: relative;
+    margin-top: -3px;
+    top: 70px;
+	}
+
+.check{
+	height: 20px;
+	}
+	
+.divcheckinput {
+        background: none;
+	}
+
+.checkwidth {
+	width: 18px;
+	height: 16px;
+	}
+
+.loginbox .formbox .field  .loginbtn {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    padding-left: 5px;
+	}
+
+.loginbox .formbox .downbtn {
+    margin: 32px 0 0 0;
+    font-size: 0;
+	}
+
+.loginbox .formbox .downbtn .joinbtn {
+    background: url("Other/5login/loginbtnjoin.gif") no-repeat;
+    width: 107px;
+    height: 27px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 100px;
+    overflow: hidden;
+    margin: 0 4px 0 0;
+	}
+
+.loginbox .formbox .downbtn .findid {
+	background: url("Other/5login/loginbtnlostId.gif") no-repeat;
+    width: 194px;
+    height: 27px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 100px;
+    overflow: hidden;
+    margin: 0 4px 0 0;
+	}
+
+.loginbox .formbox .downbtn .findpw {
+	background: url("Other/5login/loginbtnlostpw.gif") no-repeat;
+    width: 95px;
+    height: 27px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 100px;
+    overflow: hidden;
+	}
+
+.infomod {
+    background: #FBFBFB none repeat 0 0 ;
+    text-align: center;
+    border: 1px solid #E9E9E9;
+    padding: 8px 20px;
+    width: 557px;
+    margin: 10px auto;
+	}
+
+.infomod p{
+	color : #666666;
+	}
+
+.belogin {
+    background: #f1ebd6;
+    padding: 20px 0 20px 0;
+    width: 600px;
+    margin: 10px auto;
+	}
+
+.belogin .txtbox {
+    color: #666666;
+    width: 420px;
+    margin: 0 auto;
+    line-height: 16px;
+	}
+
+.belogin .boxtxt {
+    padding-top: 20px;
+    width: 212px;
+    margin: 0 auto;
+	}
+
+.beonline {
+    display: block;
+    border: none;
+    width: 212px;
+    height: 40px;
+    background: url("Other/5login/btnonline.gif") no-repeat left top;
+	}
+	
+input#lginbtn {
+background:url("Other/5login/loginbtn.gif");
+background-repeat: no-repeat;
+width:104px;
+height:58px;
+border: 0;
+}

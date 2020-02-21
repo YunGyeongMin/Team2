@@ -1,0 +1,292 @@
+@charset "UTF-8";
+
+body {margin : 0;}
+
+.margin {margin : 0px;}
+
+#div1 {width : 100%;
+	   height : 90px;
+	   min-width : 1200px;
+	   background-color : #f1e3c4;
+	   }
+	   
+#div2 {width : 1200px;
+	   height : 1337px;
+	   min-width : 1200px;
+	   margin-left : auto;
+	   margin-right : auto;
+	   padding-top : 65px;
+	   margin-bottom : 100px;
+	   }
+	   
+#div2-1 {height : 1337px;
+		 }
+		 
+#div2-L {width : 264px;
+		 height : 395px;
+		 margin : 0;
+		 padding : 0;
+		 float : left;
+		 }
+		 
+.contents {width : 218px;
+		   height : 319px;
+		   padding : 23px;
+		   margin-bottom : 30px;
+		   border : 1px;
+		   background-color : #f1e3c4;
+		   }
+		   
+.intro {height : 40px;
+		padding-top : 9px;
+	   margin-bottom : 33px;
+	   border-bottom : thick;
+	   border-bottom-width: 5px;
+	   border-bottom-style: solid;
+	   font-size : 22px;
+	   font-weight : bold;
+	   color : #432c10;
+	   }
+
+.menu {height : 209px;
+	   color : #432c10;
+	   font-size : 17px;
+	   }
+   
+
+.m {color : #432c10;
+	margin-bottom : 26px;
+	font-size : 15px;
+	letter-spacing: -1px;
+	font-weight : bold;
+	padding-left : 8px;
+	}
+	
+.m-selected {color : #432c10;
+	margin-bottom : 26px;
+	font-size : 15px;
+	letter-spacing: -1px;
+	font-weight : bold;
+	padding-left : 8px;
+	background-color : #d3c09a;
+	}
+		 
+#div2-R {width : 866px;
+		 height : 1337px;
+		 background-color : white;
+		 float : right;
+		 }
+		 
+#div2-R-T {width : calc(100% - 4px);
+		   height : 40px;
+		   padding : 2px;
+		   float : right;
+		   border-bottom : thick;
+	   	   border-bottom-width: 5px;
+	  	   border-bottom-style: solid;
+	  	   font-size : 26px;
+	   	   font-weight : normal;
+	   	   color : #432c10;
+	   	   display : inline-block;
+		   }
+		   
+#div2-R-T-R {float : right;
+			 font-size : 12px;
+			 margin-top : 3px;
+			 }
+			 	 
+.color {color : #865009;}
+
+
+
+#div2-R-B {width : 100%;
+		   height : 1276px;
+		   margin-top : 12px;
+		   display : inline-block;
+		   }
+		   
+#div2-R-B-1A {width : 100%;
+			 height : 46px;
+			 background-image : url("imgF/Checkyourbenefits.gif");
+			 background-repeat : no-repeat;
+			 background-size : cover;
+			 margin-top : 10px;
+			 margin-bottom : 20px;
+			 }
+			 
+#div2-R-B-1B {width : 100%;
+			  height : 230px;
+			  background-image : url("imgF/Rewardspicture.gif");
+			  background-repeat : no-repeat;
+			  background-size : cover;
+			  }
+			  
+#div2-R-B-1C {width : 100%;
+			  height : 100px;
+			  background-image : url("imgF/Rewardspicture2.gif");
+			  background-repeat : no-repeat;
+			  background-size : cover;
+			  }
+
+#div2-R-B-2 {width : 100%;
+			 height : 709px;
+			 }
+			 
+.h {font-size : 22px;
+	color : #3c2f26;
+	margin-top : 5px;
+	margin-bottom : 15px;
+	letter-spacing: -1px;
+	}
+	
+.p {letter-spacing : -1px;
+	line-height : 120%;
+	font-size : 15px;
+	font-weight : bold;
+	color : #3c2f26;
+	text-align : center;
+	font-size : 22px;
+	padding-top : 50px;
+	}
+	
+.h2 {font-size : 15px;
+	color : #3c2f26;
+	margin-top : 5px;
+	margin-bottom : 15px;
+	letter-spacing: -1px;
+	}
+	
+#div2-R-B-2-Grade {width : 100%;
+				   height : 630px;
+				   }
+
+#div2-R-B-2-S {width : 100%;
+			   height : 89px;
+			   border-top-width : 1px;
+			   border-top-color : #cdcbbe;
+			   border-top-style : solid;
+			   }
+			   
+#div2-R-B-2-G {width : 100%;
+			   height : 208px;
+			   border-width : 1px 0;
+			   border-color : #eceae1;
+			   border-style : solid;
+			   }
+			   
+#div2-R-B-2-D {width : 100%;
+			   height : 329px;
+			   border-bottom-width : 1px;
+			   border-bottom-color : #cdcbbe;
+			   border-bottom-style : solid;
+			   }
+			   
+#div2-R-B-2-typeS {width : 12.5%;
+				  height : calc(100% - 23px);
+				  float : left;
+			   	  background-color : #faf9f4;
+			   	  text-align : center;
+			   	  font-size : 17px;
+			   	  padding-top : 23px;
+				  }
+
+.Silver {color : #beb5b8;}
+
+#div2-R-B-2-typeG {width : 12.5%;
+				  height : calc(100% - 77px);
+				  float : left;
+			   	  background-color : #faf9f4;
+			   	  text-align : center;
+			   	  font-size : 17px;
+			   	  padding-top : 77px;
+				  }
+
+.Gold {color : #b89577;}
+
+#div2-R-B-2-typeD {width : 12.5%;
+				  height : calc(100% - 128px);
+				  float : left;
+			   	  background-color : #faf9f4;
+			   	  text-align : center;
+			   	  font-size : 17px;
+			   	  padding-top : 128px;
+				  }
+
+.Diamond {color : #943d31;}
+
+
+#div2-R-B-2-explain {width : calc(87.5% - 30px);
+					 height : calc(100% - 10px);
+					 float : left;
+					 font-size : 14px;
+					 line-height : 200%;
+					 padding : 5px 5px 5px 25px;
+					 letter-spacing : -1px;
+					 }
+
+.li {list-style : disc;}
+
+
+			   
+
+
+
+			   
+
+
+
+
+
+
+.h {font-size : 22px;
+	color : #3c2f26;
+	margin-top : 5px;
+	margin-bottom : 15px;
+	letter-spacing: -1px;
+	}
+	
+.p {letter-spacing : -1px;
+	line-height : 120%;
+	font-size : 15px;
+	font-weight : bold;
+	color : #3c2f26;
+	text-align : center;
+	font-size : 22px;
+	padding-top : 50px;
+	}
+	
+.border1 {border-bottom-width : 3px;
+		 border-bottom-style : solid;
+		 text-align : center;
+		 font-size : 22px;
+		 padding : 5px 35px;
+		 }
+
+
+
+		          
+
+
+				 	
+
+				 
+
+		     
+
+	   
+#div3 {width : 100%;
+	   height : 170px;
+	   min-width : 1200px;
+	   background-color : #f1e3c4;
+	   }
+	   
+#div4 {width : 1200px;
+	   height : 183px;
+	   margin-left : auto;
+	   margin-right : auto;
+	   min-width : 1200px;
+	   position : relative;
+	   background-color : green;
+	   }
+
+

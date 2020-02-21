@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+
+#divRS { width : 100%;
+		 }
+		 
+	 
+.divRS-1 {	width : 100%;
+			height : 149px;
+			border-bottom-color: #f1f1f1;
+			border-bottom-style: solid;
+			border-bottom-width: 1px;
+			margin-top : 50px;	
+			}
+			
+.divRS-Img1 { width : 20%;
+			  height : 90%;
+			  float : left;
+			 }
+.divRS-Img1 img {
+					width: 100%;
+					height: 100%;
+                }
+
+			 
+.divRS-L	{ width : 56%;
+			  height : 90%;
+			  padding-left : 4%;
+			  float : left;			 		
+}
+
+.divRS-R	{ width : 10%;
+			  height : calc(90% - 60px);
+			  float : right;
+			  background-repeat: no-repeat;
+			  background-size : contain;
+			  margin-top : 30px;
+			  margin-bottom : 30px;
+			  }
+
+.room-cost {font-size : 20px;
+			font-weight : bold;
+			letter-spacing: -2px;}
+
+#divRS-2 {	width : 100%;
+			height : 149px;
+			border-bottom-color: #f1f1f1;
+			border-bottom-style: solid;
+			border-bottom-width: 1px;
+			margin-top : 50px;	
+			}
+
+#divRS-Img2 { width : 20%;
+			 height : 90%;
+			 background-image : url("imgF/hotelimage2.jpg"); 
+			 background-repeat: no-repeat;
+			 background-size : contain;
+			 float : left;
+			 }
+
+#divRS-3 {	width : 100%;
+			height : 149px;
+			border-bottom-color: #f1f1f1;
+			border-bottom-style: solid;
+			border-bottom-width: 1px;
+			margin-top : 50px;	
+			}
+
+#divRS-Img3 { width : 20%;
+			 height : 90%;
+			 background-image : url("imgF/hotelimage3.jpg"); 
+			 background-repeat: no-repeat;
+			 background-size : contain;
+			 float : left;
+			 }

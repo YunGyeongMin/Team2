@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="login">
+  
+  <insert id="setUser" parameterType="kr.gudi.web.web.login.UserBean">
+  	<selectKey keyProperty="num" resultType="Integer" order="AFTER">
+  		SELECT max(CL_RWnum) AS CL_RWnum FROM ClientList
+  	</selectKey>
+  	INSERT INTO ClientList 
+  		(`CL_ID`, `CL_PW`, `CL_Mgrade`, `CL_Kname`,`CL_birth`, `CL_email`, `CL_phone`, `CL_postcode`, `CL_address`, `CL_detailaddress`, `CL_totalMile`, `CL_resMile`, `CL_membertype`) 
+    VALUES 
+    	(#{CL_ID},#{CL_PW},#{CL_Mgrade},#{CL_Kname},#{CL_birth},#{CL_email},#{CL_phone},#{CL_postcode},#{CL_address},#{CL_detailaddress},#{CL_totalMile},#{CL_resMile},#{CL_membertype})
+  </insert>
+
+  <select id="getUser" parameterType="kr.gudi.web.web.login.UserBean" resultType="kr.gudi.web.web.login.UserBean">
+  	SELECT CL_RWnum, CL_ID, CL_PW, CL_Mgrade, CL_Kname, CL_birth, CL_email, CL_phone, CL_postcode, CL_address, CL_detailaddress, CL_totalMile, CL_resMile, CL_retireYN, CL_membertype
+      FROM ClientList
+      WHERE CL_ID = #{CL_ID}
+  </select>
+
+</mapper>

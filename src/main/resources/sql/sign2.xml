@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="sign2">
+  
+  <select id="select" resultType="Map">
+  	SELECT * FROM WHERE CL_retireYN = 'N'
+  </select>
+  
+  <insert id="signinsert" parameterType="Map">
+
+  		<selectKey keyProperty="CL_RWnum" resultType="String" order="BEFORE">
+		SELECT 
+				CASE when 
+		       			  `CL_RWnum` IS NULL 
+					 then concat(DATE_FORMAT(NOW(), '%Y%m'), 1)
+		             else concat(DATE_FORMAT(NOW(), '%Y%m'), max(CAST(RIGHT(`CL_RWnum`, LENGTH(`CL_RWnum`) - 6) AS UNSIGNED INTEGER)) + 1)
+			   END
+		  FROM ClientList
+		 WHERE LEFT(`CL_RWnum`, 6) = DATE_FORMAT(NOW(), '%Y%m')
+ 		</selectKey>
+  	INSERT INTO 
+  	ClientList (CL_RWnum, CL_Kname, CL_birth, CL_email, CL_phone, CL_postcode, CL_address, CL_detailaddress, CL_ID, CL_PW )
+  	VALUES (#{CL_RWnum}, #{CL_Kname}, DATE_FORMAT(#{CL_birth}, '%Y-%m-%d'), #{CL_email}, #{CL_phone}, 
+  			#{CL_postcode}, #{CL_address}, #{CL_detailaddress}, #{CL_ID}, #{CL_PW})
+  </insert>
+  
+  <select id = "idchk" parameterType = "Map" resultType="Integer">
+  	SELECT COUNT(*) FROM ClientList
+  	WHERE CL_ID = #{CL_ID}
+  </select>
+  
+  <select id = "emchk" parameterType = "Map" resultType="Integer">
+  	SELECT COUNT(*) FROM ClientList
+  	WHERE CL_email = #{CL_email}
+  </select>
+ </mapper>

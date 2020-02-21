@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* 베이스css */
+
+.poplayer {
+    position: absolute;
+    background: #ffffff;
+    left: 10px;
+    top: 100px;
+    z-index: 10000;
+    zoom: 1;
+    box-shadow: 1px 1px 2px #555;
+	}
+
+.poplayer .pophead {
+    position: relative;
+    height: 30px;
+    zoom: 1;
+    z-index: 10;
+    background: #9b7f5b;
+    border: #9b7f5b solid 5px;
+	}
+
+/* 조인css */
+
+.poplayeragreeall {
+    width: 866px;
+    margin: 0 0 0 -433px;
+    left: 50%;
+	}
+
+.poplayeragreeall {
+    top: 250px;
+	}
+.poplayeragreeall .pophead .headttle {
+    background: url("Other/6join/popheadtitjoin.gif") no-repeat 0 -710px;
+	}
+
+.poplayer .pophead .headttle {
+    width: 70%;
+    float: left;
+    padding: 5px 0 0 25px;
+    height: 27px;
+    overflow: hidden;
+    line-height: 100px;
+	}
+
+.poplayer .pophead .btn {
+    float: right;
+    padding: 6px 22px 0 0;
+	}
+	
+.poplayer .pophead .btn .closebtn {
+    width: 19px;
+    height: 19px;
+    background: url("Other/6join/poplayerclosebtn.gif") no-repeat;
+    text-indent: -9999%;
+    overflow: hidden;
+    display: block;
+	}
+
+.poplayer .pophead .btn .closebtn span {
+    text-indent: -9999%;
+    overflow: hidden;
+	}
+
+.closebtn span {
+    display: block
+	}
+	
+.poplayer .popctn {
+    padding: 25px 27px;
+    background: #FFF;
+    border: #9b7f5b solid 5px;
+    border-top: none;
+	}
+	
+.poplayeragreeall .popctnfix {
+    height: 500px!important;
+    overflow-y: scroll;
+    display: block;
+    color: #646464;
+	}
+	
+.mdScreen {
+   	z-index: 1001;
+	}
+	
+.mdScreen {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    zoom: 1;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    opacity: 0.5;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="adminCL">
+  
+  <select id="test" resultType="Integer">
+  	SELECT 1; 
+  </select>
+  
+  <insert id="Sign2" parameterType="Map">
+  	INSERT INTO team2 
+  		(`RWNUM`, `Kname`, `Ename`, `birth`, `email`, `phone`, `addre`, `id`, `pwd`, `pwdYN`)
+  	VALUES 
+  		(#{RWNUM},#{Kname},#{Ename},#{birth},#{email},#{phone},#{addre},#{id},#{pwd},#{pwdYN},)
+  </insert>
+  
+  <select id="listview" parameterType="Map" resultType="Map">
+	SELECT CL_RWnum, 
+	       CL_Kname, 
+	       DATE_FORMAT(CL_birth, '%Y-%m-%d') AS CL_birth, 
+	       CL_Mgrade
+	  FROM ClientList 
+	 WHERE CL_retireYN = 'N'
+	   AND CL_membertype = #{CL_membertype}
+	 <if test="CL_Kname != null">  
+	   AND CL_Kname LIKE '%${CL_Kname}%'
+	  </if>
+	  <if test="CL_Mgrade != null">
+	   AND CL_Mgrade = #{CL_Mgrade}
+	   </if>
+	 ORDER BY 2, 4
+  </select>
+  
+ 
+
+  <select id="getUser" parameterType="String" resultType="Map">
+  	SELECT * FROM ClientList WHERE CL_RWnum = #{CL_RWnum}
+  </select>
+  
+  <select id="listview_Mgrade" parameterType="String" resultType="Map">
+  	SELECT * FROM ClientList WHERE CL_Mgrade = #{CL_Mgrade}
+  </select>
+  
+  
+  
+</mapper>

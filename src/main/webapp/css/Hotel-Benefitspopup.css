@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {margin : 0;}
+
+.margin {margin : 0px;}
+
+#divPic {background-image : url("imgF/Benefitsinfo2.png");
+		 width : 850px;
+ 		 height : 700px;
+		 background-repeat : no-repeat;
+		 background-size : cover;
+		 
+		 }
