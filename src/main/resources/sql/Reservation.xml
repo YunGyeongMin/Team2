@@ -32,12 +32,11 @@
   
   
    <insert id="setReservation_Payment" parameterType="kr.gudi.web.web.Reservation.ReservationBean" >
- 
   	INSERT INTO Reservation 
   				(`CL_RWnum`, `H_num`, `RV_rsvNo`, `RV_room`, `RV_adult`,
   					`RV_child`, `RV_baby`, `RV_total`, `RV_point`, `RV_checkin`, `RV_checkout`) 
   			VALUES
-  				(#{CL_RWnum}, #{H_num} , #{RV_rsvNo} , #{RV_room} , #{RV_adult} ,
+  				(#{CL_RWnum}, #{H_num} , #{RV_rsvNo} ,  #{RV_room} , #{RV_adult} ,
   					#{RV_child} , #{RV_baby} , #{RV_total} , #{RV_point} , #{RV_checkin} , #{RV_checkout});
   </insert>
   
@@ -45,6 +44,7 @@
   <select id="getRewards_RV" parameterType="kr.gudi.web.web.Reservation.ReservationBean">
   	SELECT * FROM Reservation
   </select>
+  
   
   
   

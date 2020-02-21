@@ -5,7 +5,6 @@ public class ReservationBean {
 	int RV_rsvNo;
 	String CL_RWnum;
 	int H_num;
-	String RV_date;
 	int RV_room;
 	int RV_adult;
 	int RV_child;
@@ -16,7 +15,6 @@ public class ReservationBean {
 	int RI_RoomNo;
 	String RV_checkin;
 	String RV_checkout;
-	
 	public int getRV_rsvNo() {
 		return RV_rsvNo;
 	}
@@ -34,12 +32,6 @@ public class ReservationBean {
 	}
 	public void setH_num(int h_num) {
 		H_num = h_num;
-	}
-	public String getRV_date() {
-		return RV_date;
-	}
-	public void setRV_date(String rV_date) {
-		RV_date = rV_date;
 	}
 	public int getRV_room() {
 		return RV_room;
@@ -101,14 +93,12 @@ public class ReservationBean {
 	public void setRV_checkout(String rV_checkout) {
 		RV_checkout = rV_checkout;
 	}
-	
-
 	@Override
 	public String toString() {
-		return "ReservationBean [RV_rsvNo=" + RV_rsvNo + ", CL_RWnum=" + CL_RWnum + ", H_num=" + H_num + ", RV_date="
-				+ RV_date + ", RV_room=" + RV_room + ", RV_adult=" + RV_adult + ", RV_child=" + RV_child + ", RV_baby="
-				+ RV_baby + ", RV_total=" + RV_total + ", RV_point=" + RV_point + ", RV_hotelname=" + RV_hotelname
-				+ ", RI_RoomNo=" + RI_RoomNo + ", RV_checkin=" + RV_checkin + ", RV_checkout=" + RV_checkout + "]";
+		return "ReservationBean [RV_rsvNo=" + RV_rsvNo + ", CL_RWnum=" + CL_RWnum + ", H_num=" + H_num + ", RV_room="
+				+ RV_room + ", RV_adult=" + RV_adult + ", RV_child=" + RV_child + ", RV_baby=" + RV_baby + ", RV_total="
+				+ RV_total + ", RV_point=" + RV_point + ", RV_hotelname=" + RV_hotelname + ", RI_RoomNo=" + RI_RoomNo
+				+ ", RV_checkin=" + RV_checkin + ", RV_checkout=" + RV_checkout + "]";
 	}
 	
 	

@@ -28,7 +28,8 @@ public class ReservationController {
 	
 	@GetMapping("/Reservation_Select")
 	public String getReservation(@RequestParam("choice") String RV_hotelname, Model model) {
-		System.out.println("컨트롤러 : " + RV_hotelname);
+		System.out.println("컨트롤러");
+		System.out.println(RV_hotelname);
 		if(RV_hotelname != null) {
 			ReservationBean Rb = new ReservationBean();
 			Rb.setRV_hotelname(RV_hotelname);
@@ -66,15 +67,11 @@ public class ReservationController {
 	}
 	
 	@RequestMapping(value = "/Rewards_RV" , method = RequestMethod.POST)
-	  public @ResponseBody Map<String, Object> setReservation_Payment( ReservationBean Rb ,Model model ,HttpSession session) {
-	     System.out.println("controller: " + Rb);
-	 
-	   
+	  public @ResponseBody Map<String, Object> setReservation_Payment( ReservationBean Rb) {
+	     System.out.println("controller");
+	     System.out.println(Rb);
+	      return reservationService.setReservation_Payment(Rb);
+	   } 
 	
-	     
-	     
-	     return reservationService.setReservation_Payment(Rb);
-//	   
-	}
 	
 }
