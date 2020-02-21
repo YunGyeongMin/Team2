@@ -171,10 +171,10 @@ $(document).ready(function() {
                console.log(d);
                if(d.result > 0) {
                   alert("예약 성공");
-//                  location.href = "/Rewards_RV";
+                  location.href = "/Rewards_RV";
                } else {
                   alert("예약 실패");
-//                  location.href = "/Reservation";
+                  location.href = "/Reservation";
                }
             
           });
