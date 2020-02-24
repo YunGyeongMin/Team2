@@ -13,17 +13,9 @@
 		<link rel="stylesheet" href="/css/Lastbar.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script type="text/javascript" src="/res/js/listview2.js"></script>
+		<script src="/res/js/commons.js"></script>
 		
-	<script type="text/javascript">
-
-			function HClick(){
-				document.getElementsByClassName("div_tag11")[0].style.display = "block";
-				
-			}
-			function xclick(){
-				  document.getElementsByClassName("div_tag11")[0].style.display = "none";
-			}
-		</script>
+	
 	</head>
 	
 <body>	
@@ -32,7 +24,7 @@
 <div class="container">
 
 	<div id="div2-R-T">
-		<a class ="menu_top" href = "/Admin_ST">매출전표</a>
+
 		<a class ="menu_top" href = "/Admin_CL">회원목록</a>
 		<a class ="menu_top" href = "/Admin_SL">직원목록</a>
 							 

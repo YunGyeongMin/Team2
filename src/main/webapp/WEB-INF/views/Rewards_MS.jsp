@@ -10,17 +10,9 @@
       <link rel="stylesheet" href="/css/Lastbar.css">
       <link rel="stylesheet" href="/css/base.css">
       <link rel="stylesheet" href="/css/SearchHotel.css" type = "text/css">
-      
-   <script type="text/javascript">
-
-         function HClick(){
-            document.getElementsByClassName("div_tag11")[0].style.display = "block";
-            
-         }
-         function xclick(){
-              document.getElementsByClassName("div_tag11")[0].style.display = "none";
-         }
-      </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="/res/js/commons.js"></script>
+   
       
       </head>
 <body>   

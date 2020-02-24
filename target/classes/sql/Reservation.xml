@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Reservation">
+  
+  <select id="getReservation" parameterType="kr.gudi.web.web.Reservation.ReservationBean" resultType="Map">
+  	SELECT h.H_name , r.*
+	  FROM RoomInfo AS r
+	  INNER JOIN HotelList AS h
+	  ON (r.H_num = h.H_num)
+	 WHERE CAST(H_name AS CHAR CHARACTER SET UTF8) = #{RV_hotelname}
+  </select>
+  
+  <select id="getReservation_Payment" parameterType="kr.gudi.web.web.Reservation.ReservationBean" resultType="Map">
+  	 SELECT h.H_name , r.*
+	  FROM RoomInfo AS r
+	  INNER JOIN HotelList AS h
+	  ON (r.H_num = h.H_num)
+	 WHERE r.RI_RoomNo = #{RI_RoomNo}
+  </select>
+ 
+   <insert id="setReservation" parameterType="kr.gudi.web.web.Reservation.ReservationBean">
+	   <selectKey keyProperty="H_num" resultType="Integer" order="BEFORE">
+	   		SELECT H_num FROM HotelList WHERE CAST(H_name AS CHAR CHARACTER SET UTF8) = #{RV_hotelname} 
+	   </selectKey>
+  			INSERT INTO Reservation 
+  				(`CL_RWnum`, `H_num` ) 
+  			VALUES 
+  				(#{CL_RWnum}, #{H_num})
+  </insert>
+  
+  
+   <insert id="setReservation_Payment" parameterType="kr.gudi.web.web.Reservation.ReservationBean" >
+  	INSERT INTO Reservation 
+  				(`CL_RWnum`, `H_num`, `RV_rsvNo`, `RV_room`, `RV_adult`,
+  					`RV_child`, `RV_baby`, `RV_total`, `RV_point`, `RV_checkin`, `RV_checkout`) 
+  			VALUES
+  				(#{CL_RWnum}, #{H_num} , #{RV_rsvNo} ,  #{RV_room} , #{RV_adult} ,
+  					#{RV_child} , #{RV_baby} , #{RV_total} , #{RV_point} , #{RV_checkin} , #{RV_checkout});
+  </insert>
+  
+  
+  <select id="getRewards_RV" parameterType="kr.gudi.web.web.Reservation.ReservationBean">
+  	SELECT * FROM Reservation
+  </select>
+  
+  
+  
+  
+  
+ </mapper>

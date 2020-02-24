@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Faq">
+  
+		<select id="getFaq" resultType="Map" parameterType="Map">
+		  SELECT q.QnA_No, q.QnA_YN, q.QnA_title, 
+				 q.QnA_main, u.CL_Kname, DATE_FORMAT(q.QnA_Qdate, '%Y-%m-%d %H:%i:%s') AS QnA_Qdate,
+				 IFNULL(q.QnA_Answer, '') AS QnA_Answer        
+		  FROM QnA AS q
+		  INNER JOIN ClientList AS u
+		  ON (u.CL_retireYN = 'N'
+		  and q.QnA_QID = u.CL_ID)
+		  where 1 = 1
+		  <if test="CL_Kname != null">
+		  	and u.CL_Kname like '%${CL_Kname}%'
+		  </if>
+		</select>
+	
+		<update id="setFaq" parameterType="kr.gudi.web.web.Contactus.ContactusBean">
+		UPDATE QnA SET 
+				QnA_Answer = #{QnA_Answer} , QnA_YN = 'Y'
+			WHERE QnA_No = #{QnA_No}
+		</update>
+  
+ </mapper>

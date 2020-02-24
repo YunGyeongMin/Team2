@@ -8,7 +8,6 @@ $(document).ready(function() {
 				console.log(d);
 				$("#CL_Mgrade").val(d.CL_Mgrade);
 				$("#CL_resMile").val(d.CL_resMile);			
-	
 				$("#CL_Kname1").val(d.CL_Kname);
 				$("#CL_Kname").val(d.CL_Kname);
 				$("#CL_ID").val(d.CL_ID);

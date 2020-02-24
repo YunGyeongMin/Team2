@@ -15,16 +15,13 @@
         <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
         <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
          <script type="text/javascript" src="/res/js/profile.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="/res/js/commons.js"></script>
     
       
       <script type="text/javascript">
 
-         function HClick(){
-            document.getElementsByClassName("div_tag11")[0].style.display = "block";
-         }
-         function xclick(){
-              document.getElementsByClassName("div_tag11")[0].style.display = "none";
-         }
+       
          
          function sample6_execDaumPostcode() {
               new daum.Postcode({

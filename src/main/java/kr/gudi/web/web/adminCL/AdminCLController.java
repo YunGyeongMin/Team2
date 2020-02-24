@@ -23,6 +23,8 @@ public class AdminCLController {
 
 	@Autowired private AdminCLServiceInterface acs;
 	
+	
+	
 	@RequestMapping(value="", method = RequestMethod.POST)
 	public @ResponseBody Map<String, Object> listview(@RequestBody Map<String, Object> paramMap, HttpSession session) {
 		if(session.getAttribute("result") != null) {

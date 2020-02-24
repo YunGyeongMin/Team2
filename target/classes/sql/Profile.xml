@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Profile">
+
+	<select id="select" resultType="Map">
+  		SELECT * FROM ClientList
+  	</select>
+
+  <update id="delete" parameterType="kr.gudi.web.web.login.UserBean">
+  UPDATE  `ClientList` SET   `CL_retireYN` = 'Y' 
+      WHERE    `CL_RWnum` =  #{CL_RWnum}
+  </update>
+  
+  <update id="update" parameterType="Map">
+        UPDATE ClientList SET
+            CL_birth 			= #{CL_birth},
+            CL_phone 			= #{CL_phone},
+            CL_email 			= #{CL_email},
+            CL_PW				= #{CL_PW},
+            CL_postcode 		= #{CL_postcode},
+            CL_address 			= #{CL_address},
+            CL_detailaddress 	= #{CL_detailaddress}
+        WHERE
+            CL_ID = #{CL_ID}    
+    </update>
+    
+  
+</mapper>

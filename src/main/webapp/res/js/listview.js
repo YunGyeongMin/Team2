@@ -95,8 +95,9 @@ $(document).ready(function() {
 		$("#view-list .list .link").click(function(){
 			var index = $("#view-list .list .link").index(this);
 			var $target = $("#view-list .list").eq(index);
-//			location.href = "/Admin_CL/detail?CL_RWnum=" + $target.attr("data-key");
-			// POST 방식 호출 (동적 처리)
+			location.href = "/Admin_CL/detail?CL_RWnum=" + $target.attr("data-key");
+//			location.href = "/Admin_CM" ;
+//			 POST 방식 호출 (동적 처리)
 			var form = document.createElement("FORM");
 			var input = document.createElement("input");
 			var submit = document.createElement("input");

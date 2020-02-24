@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html>
 
+
 <body class = "mainbody">
 	   <div class="div_tag11">
 	         	 <div class="div1_dididi" >
@@ -75,6 +76,7 @@
 		                        <a href = "/Login"> 로그인 </a>
 		                           <a href = "/Sign1"> 회원가입 </a>
 		                     </c:otherwise>
+		                     
                  	    </c:choose>
 					</span>
 				

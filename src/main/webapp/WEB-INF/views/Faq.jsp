@@ -14,17 +14,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="/lib/ckeditor.js"></script>
 	<script src="/res/js/Faq.js"></script>	
-	<script type="text/javascript">
-
-			function HClick(){
-				document.getElementsByClassName("div_tag11")[0].style.display = "block";
-				
-			}
-			function xclick(){
-				  document.getElementsByClassName("div_tag11")[0].style.display = "none";
-			}
-			
-		</script>
+	<script src="/res/js/commons.js"></script>
+	
 	<style type="text/css">
 		.li-2 {display: none;}
 	</style>

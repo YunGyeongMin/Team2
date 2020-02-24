@@ -6,21 +6,12 @@
 		<meta charset="UTF-8" >
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Main</title>
-<!-- 		<link rel="shortcut icon" href=""> -->
-		
+		<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 		<link rel="stylesheet" href="/css/base.css" type = "text/css">
 		<link rel="stylesheet" href="/css/SearchHotel.css" type = "text/css">
 		<link rel="stylesheet" href="/css/main.css" type = "text/css">
+		<script src="/res/js/commons.js"></script>
 		
-		<script type="text/javascript">
-			function HClick(){
-				document.getElementsByClassName("div_tag11")[0].style.display = "block";
-				
-			}
-			function xclick(){
-				  document.getElementsByClassName("div_tag11")[0].style.display = "none";
-			}
-		</script>
 		
 	</head>
 <body>

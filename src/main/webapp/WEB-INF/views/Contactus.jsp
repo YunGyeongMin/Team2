@@ -12,16 +12,8 @@
 	<script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script type = "text/javascript" src = "/res/js/Contactus.js"></script>	
-	<script type="text/javascript">
-
-			function HClick(){
-				document.getElementsByClassName("div_tag11")[0].style.display = "block";
-				
-			}
-			function xclick(){
-				  document.getElementsByClassName("div_tag11")[0].style.display = "none";
-			}
-		</script>
+	<script src="/res/js/commons.js"></script>
+	
 		
 		</head>
 <body>	
