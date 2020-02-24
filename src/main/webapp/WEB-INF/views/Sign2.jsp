@@ -8,7 +8,7 @@
 		<link rel="shortcut icon" href="#">
 		
 		<link rel="stylesheet" href="/css/main.css" type = "text/css">
-		<link rel="stylesheet" href="/css/base.css" type = "text/css">
+		<link rel="stylesheet" href="/css/base.css" type = "text/css"> 
 		<link rel="stylesheet" href="/css/join.css" type = "text/css">
 		<link rel="stylesheet" href="/css/SearchHotel.css" type = "text/css">
 	
